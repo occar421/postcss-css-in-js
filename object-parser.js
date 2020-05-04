@@ -239,6 +239,16 @@ class objectParser {
 				}
 
 				rule = atRule;
+			} else if (node.computed) {
+				// for computed property name
+
+				rule = postcss.rule({
+					selector: key.value,
+				});
+				// recalculate trivial spaces
+				const [prefix, postfix] = rawKey.split(key.value);
+
+				defineRaws(rule, 'selector', prefix, postfix);
 			} else {
 				// rule = this.rule(key, keyWrap, node.value, parent);
 				rule = postcss.rule({
