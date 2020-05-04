@@ -6,9 +6,18 @@ const SomeComponent = styled("div")`
 	background-color: ${props => props.color};
 `;
 
+const YetAnotherComponent = styled.p(
+	{
+		backgroundColor: "black",
+	},
+);
+
 const AnotherComponent = styled("h1")(
 	{
 		color: "hotpink",
+		[YetAnotherComponent]: {
+			color: "white",
+		},
 	},
 	props => ({ flex: props.flex })
 );
@@ -18,6 +27,7 @@ render(
 		<AnotherComponent flex={1}>
 			Some text.
 		</AnotherComponent>
+		<YetAnotherComponent>Yet another text.</YetAnotherComponent>
 	</SomeComponent>
 );
 const app = document.getElementById("root");

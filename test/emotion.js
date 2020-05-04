@@ -15,7 +15,7 @@ describe('javascript tests', () => {
 		code = code.toString();
 
 		expect(document.toString()).toBe(code);
-		expect(document.nodes).toHaveLength(4);
+		expect(document.nodes).toHaveLength(5);
 
 		document.nodes.forEach((root) => {
 			expect(typeof root.last.toString()).toBe('string');
@@ -47,7 +47,7 @@ describe('javascript tests', () => {
 		code = code.toString();
 
 		expect(document.toString()).toBe(code);
-		expect(document.nodes).toHaveLength(6);
+		expect(document.nodes).toHaveLength(7);
 
 		document.nodes.forEach((root) => {
 			expect(typeof root.last.toString()).toBe('string');

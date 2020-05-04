@@ -8,9 +8,18 @@ const SomeComponent = styled.div`
 	background-color: ${props => props.color};
 `;
 
+const YetAnotherComponent = styled.p(
+	{
+		backgroundColor: "black",
+	}
+);
+
 const AnotherComponent = styled.h1(
 	{
 		color: "hotpink",
+		[YetAnotherComponent]: {
+			color: "white",
+		},
 	},
 	props => ({ flex: props.flex })
 );
@@ -28,6 +37,7 @@ render(
 			}}>
 				Some other text.
 			</span>
+			<YetAnotherComponent>Yet another text.</YetAnotherComponent>
 		</AnotherComponent>
 	</SomeComponent>
 );
