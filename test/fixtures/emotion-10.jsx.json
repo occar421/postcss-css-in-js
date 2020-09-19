@@ -232,6 +232,74 @@
 						},
 						{
 							"raws": {
+								"prop": {
+									"prefix": "[",
+									"suffix": "]",
+									"raw": "dynamicProp",
+									"value": "dynamicProp"
+								},
+								"value": {
+									"prefix": "'",
+									"suffix": "'",
+									"raw": "4px",
+									"value": "4px"
+								},
+								"between": ": ",
+								"before": "\n\t\t"
+							},
+							"prop": "dynamicProp",
+							"value": "4px",
+							"type": "decl",
+							"source": {
+								"input": {
+									"file": "emotion-10.jsx"
+								},
+								"start": {
+									"line": 20,
+									"column": 2
+								},
+								"end": {
+									"line": 20,
+									"column": 22
+								}
+							}
+						},
+						{
+							"raws": {
+								"prop": {
+									"prefix": "[`",
+									"suffix": "`]",
+									"raw": "${dynamicProp}-gap",
+									"value": "${dynamicProp}-gap"
+								},
+								"value": {
+									"prefix": "'",
+									"suffix": "'",
+									"raw": "4px",
+									"value": "4px"
+								},
+								"between": ": ",
+								"before": "\n\t\t"
+							},
+							"prop": "${dynamicProp}-gap",
+							"value": "4px",
+							"type": "decl",
+							"source": {
+								"input": {
+									"file": "emotion-10.jsx"
+								},
+								"start": {
+									"line": 21,
+									"column": 2
+								},
+								"end": {
+									"line": 21,
+									"column": 31
+								}
+							}
+						},
+						{
+							"raws": {
 								"selector": {
 									"prefix": "[",
 									"suffix": "]",
@@ -271,11 +339,11 @@
 											"file": "emotion-10.jsx"
 										},
 										"start": {
-											"line": 21,
+											"line": 23,
 											"column": 3
 										},
 										"end": {
-											"line": 21,
+											"line": 23,
 											"column": 17
 										}
 									}
@@ -286,11 +354,11 @@
 									"file": "emotion-10.jsx"
 								},
 								"start": {
-									"line": 20,
+									"line": 22,
 									"column": 2
 								},
 								"end": {
-									"line": 22,
+									"line": 24,
 									"column": 3
 								}
 							}
@@ -336,11 +404,11 @@
 											"file": "emotion-10.jsx"
 										},
 										"start": {
-											"line": 24,
+											"line": 26,
 											"column": 3
 										},
 										"end": {
-											"line": 24,
+											"line": 26,
 											"column": 17
 										}
 									}
@@ -351,11 +419,11 @@
 									"file": "emotion-10.jsx"
 								},
 								"start": {
-									"line": 23,
+									"line": 25,
 									"column": 2
 								},
 								"end": {
-									"line": 25,
+									"line": 27,
 									"column": 3
 								}
 							}
@@ -401,11 +469,11 @@
 											"file": "emotion-10.jsx"
 										},
 										"start": {
-											"line": 27,
+											"line": 29,
 											"column": 3
 										},
 										"end": {
-											"line": 27,
+											"line": 29,
 											"column": 17
 										}
 									}
@@ -416,11 +484,11 @@
 									"file": "emotion-10.jsx"
 								},
 								"start": {
-									"line": 26,
+									"line": 28,
 									"column": 2
 								},
 								"end": {
-									"line": 28,
+									"line": 30,
 									"column": 3
 								}
 							}
@@ -435,7 +503,7 @@
 							"column": 1
 						},
 						"end": {
-							"line": 29,
+							"line": 31,
 							"column": 2
 						}
 					}
@@ -449,7 +517,7 @@
 					"file": "emotion-10.jsx"
 				},
 				"start": {
-					"line": 30,
+					"line": 32,
 					"column": 11
 				},
 				"inline": false,
@@ -491,11 +559,11 @@
 									"file": "emotion-10.jsx"
 								},
 								"start": {
-									"line": 30,
+									"line": 32,
 									"column": 13
 								},
 								"end": {
-									"line": 30,
+									"line": 32,
 									"column": 29
 								}
 							}
@@ -506,11 +574,11 @@
 							"file": "emotion-10.jsx"
 						},
 						"start": {
-							"line": 30,
+							"line": 32,
 							"column": 11
 						},
 						"end": {
-							"line": 30,
+							"line": 32,
 							"column": 31
 						}
 					}
@@ -532,14 +600,14 @@
 					"type": "decl",
 					"source": {
 						"start": {
-							"line": 37,
+							"line": 39,
 							"column": 5
 						},
 						"input": {
 							"file": "emotion-10.jsx"
 						},
 						"end": {
-							"line": 37,
+							"line": 39,
 							"column": 22
 						}
 					},
@@ -552,7 +620,7 @@
 					"file": "emotion-10.jsx"
 				},
 				"start": {
-					"line": 36,
+					"line": 38,
 					"column": 19
 				},
 				"inline": false,
@@ -567,7 +635,7 @@
 					"file": "emotion-10.jsx"
 				},
 				"start": {
-					"line": 41,
+					"line": 43,
 					"column": 14
 				},
 				"inline": false,
@@ -609,11 +677,11 @@
 									"file": "emotion-10.jsx"
 								},
 								"start": {
-									"line": 42,
+									"line": 44,
 									"column": 4
 								},
 								"end": {
-									"line": 42,
+									"line": 44,
 									"column": 23
 								}
 							}
@@ -624,11 +692,11 @@
 							"file": "emotion-10.jsx"
 						},
 						"start": {
-							"line": 41,
+							"line": 43,
 							"column": 14
 						},
 						"end": {
-							"line": 43,
+							"line": 45,
 							"column": 4
 						}
 					}
@@ -650,14 +718,14 @@
 					"type": "decl",
 					"source": {
 						"start": {
-							"line": 52,
+							"line": 54,
 							"column": 2
 						},
 						"input": {
 							"file": "emotion-10.jsx"
 						},
 						"end": {
-							"line": 52,
+							"line": 54,
 							"column": 22
 						}
 					},
@@ -670,7 +738,7 @@
 					"file": "emotion-10.jsx"
 				},
 				"start": {
-					"line": 51,
+					"line": 53,
 					"column": 21
 				},
 				"inline": false,

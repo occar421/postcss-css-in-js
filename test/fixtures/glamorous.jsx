@@ -8,6 +8,7 @@ const Component1 = glm.a(
 		// stylelint-disable-next-line
 		"unknownProperty1": "1.8em", // must not trigger any warnings
 		unknownProperty2: "1.8em", // must not trigger any warnings
+		[unknownProperty3]: "1.8em", // must not trigger any warnings
 		[`unknownPropertyaa${a}`]: "1.8em", // must not trigger any warnings
 		["unknownProperty" + 1 + "a"]: "1.8em", // must not trigger any warnings
 		display: "inline-block",

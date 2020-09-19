@@ -245,7 +245,7 @@ class objectParser {
 				rule = postcss.rule({
 					selector: key.value,
 				});
-				// recalculate trivial spaces
+				// recalculate trivial characters
 				const [prefix, postfix] = rawKey.split(key.value);
 
 				defineRaws(rule, 'selector', prefix, postfix);
@@ -279,6 +279,20 @@ class objectParser {
 			raw(atRule);
 
 			return atRule;
+		} else if (node.computed) {
+			// recalculate trivial characters
+			const [prefix, postfix] = rawKey.split(key.value);
+
+			const decl = postcss.decl({
+				prop: key.value,
+				value: value.value,
+			});
+
+			defineRaws(decl, 'prop', prefix, postfix);
+			defineRaws(decl, 'value', value.prefix, value.suffix);
+			raw(decl);
+
+			return decl;
 		} else {
 			let decl;
 

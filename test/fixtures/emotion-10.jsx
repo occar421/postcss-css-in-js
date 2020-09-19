@@ -17,6 +17,8 @@ const YetAnotherComponent = styled.p(
 const AnotherComponent = styled.h1(
 	{
 		color: "hotpink",
+		[dynamicProp]: '4px',
+		[`${dynamicProp}-gap`]: '4px',
 		[YetAnotherComponent]: {
 			color: "white",
 		},
