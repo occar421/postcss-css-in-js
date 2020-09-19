@@ -18,6 +18,12 @@ const AnotherComponent = styled("h1")(
 		[YetAnotherComponent]: {
 			color: "white",
 		},
+		[`${YetAnotherComponent} > span`]: {
+			color: "black",
+		},
+		"&:before": {
+			content: `'!'`,
+		},
 	},
 	props => ({ flex: props.flex })
 );

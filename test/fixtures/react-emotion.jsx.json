@@ -294,6 +294,136 @@
 									"column": 3
 								}
 							}
+						},
+						{
+							"raws": {
+								"selector": {
+									"prefix": "[`",
+									"suffix": "`]",
+									"raw": "${YetAnotherComponent} > span",
+									"value": "${YetAnotherComponent} > span"
+								},
+								"between": ": ",
+								"after": "\n\t\t",
+								"semicolon": true,
+								"before": "\n\t\t"
+							},
+							"selector": "${YetAnotherComponent} > span",
+							"type": "rule",
+							"nodes": [
+								{
+									"raws": {
+										"prop": {
+											"prefix": "",
+											"suffix": "",
+											"raw": "color",
+											"value": "color"
+										},
+										"value": {
+											"prefix": "\"",
+											"suffix": "\"",
+											"raw": "black",
+											"value": "black"
+										},
+										"between": ": ",
+										"before": "\n\t\t\t"
+									},
+									"prop": "color",
+									"value": "black",
+									"type": "decl",
+									"source": {
+										"input": {
+											"file": "react-emotion.jsx"
+										},
+										"start": {
+											"line": 22,
+											"column": 3
+										},
+										"end": {
+											"line": 22,
+											"column": 17
+										}
+									}
+								}
+							],
+							"source": {
+								"input": {
+									"file": "react-emotion.jsx"
+								},
+								"start": {
+									"line": 21,
+									"column": 2
+								},
+								"end": {
+									"line": 23,
+									"column": 3
+								}
+							}
+						},
+						{
+							"raws": {
+								"selector": {
+									"prefix": "\"",
+									"suffix": "\"",
+									"raw": "&:before",
+									"value": "&:before"
+								},
+								"between": ": ",
+								"after": "\n\t\t",
+								"semicolon": true,
+								"before": "\n\t\t"
+							},
+							"selector": "&:before",
+							"type": "rule",
+							"nodes": [
+								{
+									"raws": {
+										"prop": {
+											"prefix": "",
+											"suffix": "",
+											"raw": "content",
+											"value": "content"
+										},
+										"value": {
+											"prefix": "`",
+											"suffix": "`",
+											"raw": "'!'",
+											"value": "'!'"
+										},
+										"between": ": ",
+										"before": "\n\t\t\t"
+									},
+									"prop": "content",
+									"value": "'!'",
+									"type": "decl",
+									"source": {
+										"input": {
+											"file": "react-emotion.jsx"
+										},
+										"start": {
+											"line": 25,
+											"column": 3
+										},
+										"end": {
+											"line": 25,
+											"column": 17
+										}
+									}
+								}
+							],
+							"source": {
+								"input": {
+									"file": "react-emotion.jsx"
+								},
+								"start": {
+									"line": 24,
+									"column": 2
+								},
+								"end": {
+									"line": 26,
+									"column": 3
+								}
+							}
 						}
 					],
 					"source": {
@@ -305,7 +435,7 @@
 							"column": 1
 						},
 						"end": {
-							"line": 21,
+							"line": 27,
 							"column": 2
 						}
 					}
@@ -319,7 +449,7 @@
 					"file": "react-emotion.jsx"
 				},
 				"start": {
-					"line": 22,
+					"line": 28,
 					"column": 11
 				},
 				"inline": false,
@@ -361,11 +491,11 @@
 									"file": "react-emotion.jsx"
 								},
 								"start": {
-									"line": 22,
+									"line": 28,
 									"column": 13
 								},
 								"end": {
-									"line": 22,
+									"line": 28,
 									"column": 29
 								}
 							}
@@ -376,11 +506,11 @@
 							"file": "react-emotion.jsx"
 						},
 						"start": {
-							"line": 22,
+							"line": 28,
 							"column": 11
 						},
 						"end": {
-							"line": 22,
+							"line": 28,
 							"column": 31
 						}
 					}
@@ -402,14 +532,14 @@
 					"type": "decl",
 					"source": {
 						"start": {
-							"line": 35,
+							"line": 41,
 							"column": 2
 						},
 						"input": {
 							"file": "react-emotion.jsx"
 						},
 						"end": {
-							"line": 35,
+							"line": 41,
 							"column": 22
 						}
 					},
@@ -422,7 +552,7 @@
 					"file": "react-emotion.jsx"
 				},
 				"start": {
-					"line": 34,
+					"line": 40,
 					"column": 21
 				},
 				"inline": false,

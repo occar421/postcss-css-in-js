@@ -20,6 +20,12 @@ const AnotherComponent = styled.h1(
 		[YetAnotherComponent]: {
 			color: "white",
 		},
+		[`${YetAnotherComponent} > span`]: {
+			color: "black",
+		},
+		"&:before": {
+			content: `'!'`,
+		},
 	},
 	props => ({ flex: props.flex })
 );
@@ -37,7 +43,7 @@ render(
 			}}>
 				Some other text.
 			</span>
-			<YetAnotherComponent>Yet another text.</YetAnotherComponent>
+			<YetAnotherComponent>Yet <span>another</span> text.</YetAnotherComponent>
 		</AnotherComponent>
 	</SomeComponent>
 );
